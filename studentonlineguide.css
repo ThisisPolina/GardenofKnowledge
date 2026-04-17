@@ -88,6 +88,10 @@ padding-left: 10px;
 flex-wrap: wrap;
 }
 
+#banner span {
+font-size: clamp(28px, 5vw, 50px);
+}
+
 #topbar {
 display: flex;
 align-items: center;
