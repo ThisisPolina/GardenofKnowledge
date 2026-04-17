@@ -496,8 +496,16 @@ ol {
     font-size: 0.8rem;
   }
 
-#credits ul {
-column-count:2;
-gap:30px;
+#credits {
+  column-count: 2;
+  column-gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#credits li {
+  break-inside: avoid;
+  margin-bottom: 6px;
 }
 
