@@ -65,33 +65,28 @@ body {
 }
 
 #banner {
-  padding-right: 10px;
-  height: 100px;
+  padding: 0 10px;
+  min-height: 100px;
   background: var(--bright-color);
   box-shadow: var(--banner-box-shadow);
-  background-size: contain;
   display: flex;
-  align-items: flex-end;
-  padding-left: 10px;
-  position: relative;
+  align-items: center;
   gap: 10px;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 #banner img {
   height: 80px;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 #banner span {
   margin-left: auto;
-  font-size: clamp(18px, 40px, 45px);
+  font-size: clamp(18px, 4vw, 40px);
   line-height: 1.1;
   word-break: break-word;
-}
-
-#banner {
-  flex-wrap: wrap;
+  max-width: 60%;
+  text-align: right;
 }
 
 #topbar {
