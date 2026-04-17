@@ -496,7 +496,7 @@ ol {
     font-size: 0.8rem;
   }
 
-#credits {
+#credits ul {
 column-count:2;
 gap:30px;
 }
