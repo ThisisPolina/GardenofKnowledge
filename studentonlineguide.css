@@ -88,10 +88,6 @@ padding-left: 10px;
 flex-wrap: wrap;
 }
 
-#banner span {
-font-size: clamp(28px, 5vw, 50px);
-}
-
 #topbar {
 display: flex;
 align-items: center;
@@ -523,3 +519,8 @@ line-height: 1.4;
 .readmore {
 margin-top: auto;
 }
+
+#banner span {
+font-size: clamp(28px, 5vw, 50px);
+}
+
