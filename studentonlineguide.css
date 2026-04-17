@@ -475,8 +475,8 @@ ol {
     background-image: url("starclover.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1em;
-    height: 1em;
+    width: 2em;
+    height: 2em;
     margin-left: 2px;
     vertical-align: top;
   }
