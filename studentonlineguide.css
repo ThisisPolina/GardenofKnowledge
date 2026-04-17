@@ -19,7 +19,7 @@ inset -1px 0 2px rgba(156,182,203,0.25),
 inset 0 -2px 3px rgba(156,182,203,0.35);
 --main-button-box-shadow: inset 1px 1px 2px rgba(255,255,255,0.45), inset -1px -1px 2px rgba(127,199,123,0.55);
 --sublink-color: linear-gradient(to bottom, #FFFFFF55, #D7F2D2);
---sublink-box-shadow: inset 1px 1px 2px rgba(255,255,255,0.45), inset -1px -1px 2px rgba(156,182,203,0.5); border-bottom: 2px groove var(--body-color);
+--sublink-box-shadow: inset 1px 1px 2px rgba(255,255,255,0.45), inset -1px -1px 2px rgba(156,182,203,0.5); 
 --sublink-hover-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.12),
 inset -1px -1px 2px rgba(255,255,255,0.18);
 --sublink-hover: linear-gradient(to bottom, #C3E6C0, #beebba);
@@ -54,7 +54,7 @@ html {
 overflow-y: scroll;
 }
 
-{
+*{
 box-sizing: border-box;
 font-family: "Tsukimi Rounded", sans-serif;
 letter-spacing: 1px;
