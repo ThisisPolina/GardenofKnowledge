@@ -452,18 +452,6 @@ ol {
     display: none;
   }
 
-    section {
-    text-align: left;
-    hyphens: auto;
-  }
-
-  #wrapper {
-    margin: 0;
-  }
-
-  #banner span {
-  margin-top:5px;}
-
   #mobile-sidebar {
     display: inline-block;
     width: 100%;
@@ -519,6 +507,18 @@ ol {
   .answer {
     font-size: 0.8rem;
   }
+
+      section {
+    text-align: left;
+    hyphens: auto;
+  }
+
+  #wrapper {
+    margin: 0;
+  }
+
+  #banner span {
+  margin-top:5px;}
 
 }
 
