@@ -457,7 +457,7 @@ ol {
     width: 100%;
     text-align: center;
     font-size: 15px;
-    padding: 10px 0;
+    padding:10px;
     background: var(--light-color);
     box-shadow: var(--mobile-sidebar-box-shadow);
   }
@@ -468,11 +468,11 @@ ol {
     background-image: url("starclover.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1em;
-    height: 1em;
+    width: 1.1em;
+    height: 1.1em;
     margin-left: 2px;
     vertical-align: middle;
-    margin-top:2px;
+    margin-top:4px;
   }
 
   .events {
