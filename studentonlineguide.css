@@ -79,13 +79,13 @@ body {
 }
 
 #banner img {
-  height: 90px;
+  height: 80px;
   object-fit: fill;
 }
 
 #banner span {
   margin-left: auto;
-  font-size: 40px;
+  font-size: clamp(30px, 40px, 45px);
 }
 
 #topbar {
